@@ -1,0 +1,318 @@
+//   Navbar
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 11em;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  font-size: 165%;
+}
+
+nav.mr-auto {
+  width: 100%;
+  padding: 1em;
+  height: 0emm;
+  background: #343a40;
+}
+
+.container.jumbo {
+  margin-top: 7em;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 8em;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  font-size: 90%;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.bg-light {
+  background-color: #2ebd21be;
+}
+
+button#dropdownMenu2 {
+  height: 2em;
+  width: 7em;
+  font-size: 93%;
+  margin-right: 1em;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 7em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Jumbotromn
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  margin-top: 8em;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.lead {
+  font-size: 2.25rem;
+  font-weight: 100;
+}
+
+p.lead {
+  font-size: 2.25rem;
+}
+
+.display-4 {
+  margin-bottom: 2.5rem;
+}
+
+a.navbar-brand {
+  font-size: 225%;
+  margin-left: 2%;
+}
+
+.card-header.text-center {
+  margin-bottom: 4em;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  background: inherit;
+  padding: 1em;
+}
+
+footer.container-fluid.fot-index {
+  height: 7em;
+}
+
+// Media Queries
+@media (min-width: 877px) {
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+// SEARCH PART ==================== INDEX HTML
+
+.item {
+  width: 13em;
+  padding: 1em;
+  margin: 4em;
+}
+
+.container.display {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 1em;
+}
+
+img.img-fluid.img-item {
+  margin-bottom: 7%;
+}
+
+// CONTACT PAGE ---------------------------
+
+.margin-c {
+  margin-top: 23em;
+}
+
+h1.float-none {
+  margin-top: 2em;
+  font-size: 5em;
+  margin-left: 4%;
+}
+
+footer.container-fluid {
+  background: #343a40;
+  height: 11%;
+  margin-top: 5em;
+  color: white;
+  text-align: -webkit-center;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.fot {
+  background: #343a40;
+  height: 11em;
+  margin-top: 5em;
+  color: white;
+  text-align: -webkit-center;
+  text-align: center;
+  padding: 2em;
+  position: relative;
+  bottom: 0;
+}
+
+span {
+  font-size: 2em;
+  position: relative;
+  left: 2%;
+}
+
+.a-f {
+  margin: 0em;
+  padding-right: 0%;
+  margin-left: 4%;
+  color: lightgray;
+  font-size: 130%;
+}
+
+footer.container-fluid.fot {
+  position: fixed;
+  padding: 0%;
+}
+
+p.p-f {
+  font-size: 101%;
+}
+
+.img-float {
+  width: 22em;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+.flow-fot {
+  list-style: none;
+  float: none;
+  position: relative;
+  top: 9%;
+  left: -1%;
+}
+
+.flow{
+  list-style-type: none;
+}
+
+#fot-cont {
+  margin-top: 21em;
+}
+
+.phone {
+  margin-right: 2em;
+}
+
+.padding-info {
+  margin-bottom: 2em;
+}
+
+.container-info {
+  margin-top: 10em;
+  margin-bottom: 17em;
+}
+
+// INFO PAGE ==============================
+
+.cont-pro {
+  margin-top: 10em;
+}
+
+h1.pro-category {
+  margin-bottom: 2em;
+}
+
+.li-pro {
+  font-size: 2em;
+  margin-bottom: 5em;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+span.dice {
+  font-size: 122%;
+  margin-right: 9%;
+}
+
+.pro-width {
+  width: 6em;
+  height: 9em;
+  margin: 1em;
+}
+.row.pro-row {
+  margin-bottom: 7em;
+}
+
+.col-sm-8 {
+  display: grid;
+}
+
+.d-cont {
+  margin-bottom: 6em;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+}
+
+.fot-info {
+  position: relative;
+  padding: 0%;
+}
+
+.info-flow {
+  list-style: none;
+  float: none;
+  left: -1%;
+  bottom: -10px;
+}
+
+// PRODUCTOS ====================
+
+.productos {
+  margin-top: 12em;
+}
+// FONT =========================
+
+.font {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+// Include parts of Bootstrap
+@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
