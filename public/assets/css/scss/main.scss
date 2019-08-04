@@ -10,12 +10,23 @@
   padding: 0.5rem 1rem;
 }
 
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 1.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  font-size: 165%;
-}
+  position: relative;
+  top: 1%;
+  font-size: 142%;}
 
 nav.mr-auto {
   width: 100%;
@@ -32,7 +43,7 @@ nav.mr-auto {
   position: fixed;
   top: 0;
   right: 0;
-  height: 8em;
+  height: 7em;
   left: 0;
   z-index: 1030;
 }
@@ -71,7 +82,7 @@ button#dropdownMenu2 {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  margin-top: 8em;
+  margin-top: 7em;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
@@ -96,6 +107,10 @@ p.lead {
 a.navbar-brand {
   font-size: 225%;
   margin-left: 2%;
+}
+
+.navbar-brand {
+  padding-bottom: 1.3125rem;
 }
 
 .card-header.text-center {
@@ -308,8 +323,6 @@ span.dice {
 .font {
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-
 
 
 // Include parts of Bootstrap

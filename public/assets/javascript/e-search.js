@@ -4,7 +4,7 @@
 (function($){
     $.fn.extend({
         search: function(callback,timeout){
-            timeout = timeout || 1e3; // 1 second default timeout
+            timeout = timeout || 0; // 1 second default timeout
             var timeoutReference,
                 search = function(el){
                     if (!timeoutReference) return;
@@ -33,12 +33,12 @@
                         console.log(gameNameTrim2);
 			     		if(gameNameTrim2){
 
-			     		$(".containerItems").children().fadeOut();
-			     		$(".containerItems [data-search*="+gameNameTrim2+"]").fadeIn('fast');
+			     		$(".containerItems").children().fadeOut("false");
+			     		$(".containerItems [data-search*="+gameNameTrim2+"]").fadeIn('slow');
 
 			     		}else{
 
-                          $(".containerItems").children().fadeIn();
+                          $(".containerItems").children().fadeIn("false");
                           $("ul.dropdown-menu li").parent().find("li").each(function( index ) {
                           $( this ).removeClass('active');
 
